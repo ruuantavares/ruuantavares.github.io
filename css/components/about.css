@@ -1,0 +1,40 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  scroll-margin-top: 20rem;
+  padding: 2rem;
+}
+
+.about > div {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .about {
+    grid-template-columns: 1fr; /* empilha tudo em uma coluna */
+    gap: 2rem;
+  }
+
+  .about h2 {
+    font-size: 1.8rem;
+  }
+
+  .about p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+  }
+}

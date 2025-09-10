@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/extends.css" />
+    <title>Portifólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar__content max-width mb-0">
+        <a href="/">
+          Portifólio
+        </a>
+        <ul class="navbar__links">
+          <li><a href="#header">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#creative">Monster</a></li>
+        </ul>
+
+        <div class="navbar__mobile">
+          <img src="assets/menu.svg" alt="menu" class="burguer">
+          <ul class="mobile__links">
+          <li><a href="#header">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#creative">Monster</a></li>
+        </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- header -->
+    <header id="header" class="max-width">
+      <div class="header__left">
+        <h1>Portifólio pessoal</h1>
+        <p>
+          Meu primeiro portifólio pessoal para o curso
+          <em>Jovem Programador, usando HTML,CSS e JS.</em>
+        </p>
+        <a href="#about" class="btn btn-primary">Saiba mais!</a>
+      </div>
+      <div class="header__right">
+        <div class="header__image">
+          <img src="assets/laptop.jpg" alt="Laptop" class="imagem-ajustada" />
+        </div>
+      </div>
+    </header>
+
+    <!-- Sobre -->
+    <section id="about" class="about max-width">
+
+  <div class="about__left">
+    <h3 class="secondary-title">Quem sou eu?</h3>
+    <p>Me chamo Ruan, sou natural de Guaratuba-PR, mas atualmente moro em Joinville-SC.<br> Desde sempre tenho interesse pela área de tecnologia, gosto de resolver problemas e pensar fora da caixinha. Talvez seja por isso que me identifico tanto com esse campo.<br>Tenho o grande desejo de em breve atuar profissionalmente na área e continuar evoluindo cada vez mais.</p>
+  </div>
+
+  <div class="about__right">
+    <h3 class="secondary-title">Hobbies</h3>
+    <p>Meus passatempos preferidos são jogar alguns jogos online, assistir séries e filmes, ler mangás, ouvir músicas e agora consumir conteúdos de programação.</p>
+  </div>
+
+  <div class="about__left">
+    <h3 class="secondary-title">Música Preferida</h3>
+    <h2>Thnks fr th Mmrs - Fall Out Boy</h2>
+    <!-- TESTE -->
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/3Zwu2K0Qa5sT6teCCHPShP?utm_source=generator&theme=0" width="80%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>  </div>
+
+  <div class="about__right">
+    <h3 class="secondary-title">Filme Preferido</h3>
+      <h2><strong>Interestelar</strong></h2>
+      <p>Interestelar é meu filme favorito porque vai além da ficção científica. Ele mostra a jornada de astronautas em busca de um novo planeta para a humanidade, mas o que mais me marca é como a história mistura ciência com sentimentos humanos, principalmente a relação entre pai e filha. É um filme que me inspira a pensar sobre futuro, escolhas e até sobre como a tecnologia pode mudar o rumo da nossa vida.</p>
+  </div>
+</div>
+    </section>
+
+    <!-- Habilidades e experiencia no mercado-->
+     <section id="skills" class="skills">
+      <div class="skills__content max-width">
+        <h2 class="tertiary-title">Um pouco sobre minhas habilidades</h2>
+        <p class="description">
+          <p>
+          Comecei no curso <em>Jovem Programador 2025</em> com meus primeiros conhecimentos básicos em
+          <strong>C++</strong>, onde tivemos contato com lógica de programação.
+          Em seguida, seguimos com estudos em <strong>C#</strong>, desenvolvendo
+          junto com minha equipe um projeto de
+          <em>Controle de Gastos Pessoal</em> utilizando
+          <strong>WinForms</strong> para apresentar no nosso primeiro
+          <strong><abbr title="Projeto Integrador">PI</abbr></strong
+          >.
+        </p>
+        <p>
+          Atualmente, estou aprendendo <strong>HTML</strong>,
+          <strong>CSS</strong> e <strong>JavaScript</strong> para criar websites
+          funcionais e responsivos. Apesar de ainda enfrentar alguns desafios,
+          estou evoluindo gradualmente no curso.
+        </p>
+        <h2 class="tertiary-title">Experiência de Mercado</h2>
+        <p>
+          Ainda não possuo experiência profissional na área de tecnologia, mas
+          estou comprometido em desenvolver minhas habilidades e conquistar
+          minha primeira oportunidade para iniciar minha carreira como
+          programador.
+        </p>
+        </p>
+      </div>
+     </section>
+
+     <!--Creative Monster-->
+      <section id="creative">
+        <canvas id="canvas" class="monster"></canvas>
+      </section>
+
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
